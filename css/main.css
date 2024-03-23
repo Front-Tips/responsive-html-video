@@ -1,0 +1,44 @@
+:root {
+  --background-color: #181824;
+  --text-color: #000;
+
+  --scrollbar-thumb-color: #fff;
+  --scrollbar-track-color: #0d0d18;
+  --scrollbar-width: 15px;
+
+  --primary: #ef12f3;
+  --primary-dark: #aa00ad;
+  --secondary: #0089c8;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: var(--text-color);
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--background-color);
+  background-size: 20px 20px;
+}
+
+p {
+  cursor: default;
+}
+
+video {
+  width: 100%;
+}
+
+a {
+  display: block;
+  margin-top: 15px;
+  color: #fff;
+}
